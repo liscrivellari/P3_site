@@ -112,7 +112,7 @@ li#liTwo{
 }
 
 .form_tickets{
-    grid-column: 1/4;
+    grid-column: 2/4;
     grid-row: 6/11;
 
 }
