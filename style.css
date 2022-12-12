@@ -7,14 +7,19 @@ html{
 body{
     background-color: #172641;
     color: #CCD7D5;
-    margin: 0;
+    margin: 10;
     font-size: 1.3vw;
+}
+
+a{
+    color: #CCD7D5;
 }
 
 .grid{
     display: grid;
-    grid-template-columns: ;
-        grid-template-rows: repeat(9, 5vw);
+    display: block;
+    /* grid-template-columns: ; */
+grid-template-rows:  repeat(9, 5vw);
         grid-gap: 2em;
 }
    .titulo{
@@ -22,10 +27,73 @@ body{
     grid-row: 1/4 ;
    } 
 .botoes{
-    position: relative;
-    top: 500px;
-  right: 200px;
-    color: #CCD7D5;
-    font-size: 10px;
+
+    font-size: 20px;
     grid-row: 2/6 ;  
 }
+.play{
+    /* position: relative;
+    top: 0px;
+  left: 250px; */
+    font-size: 15px;
+    grid-row: 2/6 ; 
+}
+.botoes>.a{
+    text-decoration: none;
+    color: #CCD7D5;
+}
+
+.aboutus{
+    text-align: left;
+    margin: 10px;
+    font-size: 15px;
+    grid-row: 3/6 ; 
+}
+
+.shop{
+  /* position: relative;
+    top: 50px;
+  right: 200px; */
+  padding: 10px;
+    font-size: 15px;
+    grid-row: 4/6 ; 
+}
+.shp{
+    font-size: 50px;
+    grid-row: 5/6;
+}
+
+.ti{
+    font-size: 20px;
+    grid-row: 2/4;
+}
+/* .chek{
+    font-size: 50px;
+} */
+
+.form_tickets{
+    grid-row: 2/7;
+}
+
+#form_b{
+    grid-row: 6/7;  
+}
+.buy-tickets{
+    grid-row: 1/7;  
+}
+
+#text{
+    text-align: left;
+
+    font-size: 15px;
+}
+.logo{
+    font-size: 30px;
+}
+#on{
+    font-size: 25px;
+}
+#h3{
+    font-size: 20px;
+}
+
