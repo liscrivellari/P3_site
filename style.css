@@ -8,39 +8,63 @@ body{
     background-color: #172641;
     color: #CCD7D5;
     margin: 10;
-    font-size: 1.3vw;
+    /* font-size: 1vw; */
 }
+
 
 a{
     color: #CCD7D5;
 }
 
+
+.mainHeader{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    grid-column: 1/4;
+}
+
+ul li{
+    display: inline;
+    line-height: 2em;
+    text-align: center;
+}
+
+li#liOne{
+    grid-column: 1/2;
+}
+
+li#liTwo{
+    grid-column: 2/3;
+}
+
+#liThree{
+    grid-column: 3/4;
+}
+
+
 .grid{
     display: grid;
-    display: block;
-    /* grid-template-columns: ; */
-grid-template-rows:  repeat(9, 5vw);
-        grid-gap: 2em;
+    grid-template-columns: 5% 1fr 5%;
+    grid-template-rows: repeat(20, 30px);
 }
    .titulo{
-    font-size: 20px;
+    font-size: 30px;
+    grid-column: 2/3;
     grid-row: 1/4 ;
    } 
-.botoes{
 
-    font-size: 20px;
-    grid-row: 2/6 ;  
-}
 .play{
     /* position: relative;
     top: 0px;
   left: 250px; */
     font-size: 15px;
-    grid-row: 2/6 ; 
-}
-.botoes>.a{
-    text-decoration: none;
-    color: #CCD7D5;
 }
 
 .aboutus{
