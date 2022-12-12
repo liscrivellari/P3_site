@@ -84,7 +84,7 @@ li#liTwo{
 
     font-size: 15px;
     grid-column: 2/3;
-    grid-row: 8/9 ; 
+    grid-row: 2/9 ; 
 } 
 #shp{
     font-size: 30px;
@@ -116,7 +116,9 @@ li#liTwo{
     grid-row: 6/11;
 
 }
-
+.ch{
+    font-size: 20px;
+}
 #form_b{
     grid-column: 1/4;
     grid-row: 20/21;  
@@ -146,4 +148,15 @@ li#liTwo{
 }
 #h3{
     font-size: 20px;
+}
+
+#adject{
+    font-size: 10px;
+    grid-column: 3/4;
+    grid-row: 2/5; 
+}
+.tit{
+    font-size: 20px;
+    grid-column: 2/3;
+    grid-row: 2/5; 
 }
