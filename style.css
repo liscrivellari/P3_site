@@ -1,0 +1,117 @@
+html{
+    box-sizing: border-box;
+    font-family: Degular, sans-serif;
+    color: rgb(245, 235, 214);
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(11, 4, 40);
+    font-size: 1.3vw;
+}
+
+
+/* CHECKOUT */
+
+@media screen and (max-width: 600px) {
+.checkout{
+    grid-template-rows: repeat(16, 5vw);
+}
+
+#build{
+    display: none;
+}
+.form-tickets{
+
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: repeat(7,10vw);
+    padding: 0;
+}    
+
+#cafe_h1{
+    grid-column: 2/12;
+    grid-row: 2/4; 
+}
+
+#cafe_h4{
+    font-size: 3.3vw;
+    grid-column: 2/12;
+    grid-row: 4/5; 
+    top: 50%;
+}
+
+.buy-tickets{
+    display: inline-block;
+    position: relative;
+    grid-column: 2/12;
+    grid-row: 6/15;
+}
+
+.checkme{
+    font-size: 3vw;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    grid-column: 2/12;
+    grid-row: 6/15;
+}
+
+
+
+.buy-tickets{
+    grid-column: 2/12;
+    grid-row: 6/15;
+}
+
+
+.form-tickets label{
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    padding: 0.9em;
+    border: var(--borda);
+    width: auto;
+}
+
+.form-tickets input, .form-tickets select{
+    font-size: 1.7vw;
+}
+
+#form_b{
+    top: 100%;
+}
+
+
+
+
+
+
+
+
+.titulo{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    font-size: 3em ;
+    color: inherit;
+    z-index: 7;
+    mix-blend-mode: difference;
+    grid-column: 2/4;
+    grid-row: 3/6;
+   
+}
+#text{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    font-size: 2em ;
+    color: inherit;
+    z-index: 7;
+    mix-blend-mode: difference;
+    grid-column: 2/4;
+    grid-row: 5/9;  
+}
+}
