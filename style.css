@@ -127,10 +127,13 @@ li#liTwo{
 
 #text{
     font-size: 15px;
-    grid-column: 1/4;
-    grid-row: 10/11;  
+    grid-column: 2/3;
+    grid-row: 7/8;  
 }
-
+.titleGame{
+    grid-column: 2/3;
+    grid-row: 4/6;   
+}
 .logo{
     font-size: 30px;
     grid-column: 2/3;
