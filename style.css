@@ -114,6 +114,7 @@ li#liTwo{
 .form_tickets{
     grid-column: 1/4;
     grid-row: 6/11;
+
 }
 
 #form_b{
@@ -121,8 +122,9 @@ li#liTwo{
     grid-row: 20/21;  
 }
 .buy-tickets{
-    grid-column: 1/4;
-    grid-row: 10/11;  
+   grid-column: 1/4;
+    grid-row: 10/11;   
+
 }
 
 #text{
