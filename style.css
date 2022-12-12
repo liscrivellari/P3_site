@@ -112,16 +112,16 @@ li#liTwo{
 }
 
 .form_tickets{
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 6/11;
 }
 
 #form_b{
-    grid-column: 2/3;
-    grid-row: 10/11;  
+    grid-column: 1/4;
+    grid-row: 20/21;  
 }
 .buy-tickets{
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 10/11;  
 }
 
