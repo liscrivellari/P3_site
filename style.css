@@ -81,21 +81,24 @@ li#liTwo{
    /* position: relative;
     top: 50px;
   right: 200px;  */
-
+    text-align: center;
     font-size: 15px;
     grid-column: 2/3;
     grid-row: 2/9 ; 
 } 
 #shp{
-    font-size: 30px;
-    grid-column: 2/3;
+    text-align: center;
+    font-size: 80px;
+    grid-column: 4/5;
     grid-row: 5/6;
 }
-#the{
-    font-size: 20px;
+#the {
+    text-align: center;
+    font-size: 40px;
     grid-column: 2/3;
     grid-row: 1/2;
 }
+
 
 .ti{
     font-size: 20px;
@@ -150,11 +153,29 @@ li#liTwo{
     font-size: 20px;
 }
 
-#adject{
-    font-size: 10px;
-    grid-column: 3/4;
-    grid-row: 2/5; 
+.adject{
+text-decoration: solid;
+text-size-adjust: 60px;
+font-size: 15px;
+    grid-column: 2/4;
+    grid-row: 45/55; 
+
 }
+#adj{
+    /* display: grid;
+    grid-template-columns: 5% 1fr 5%;
+    grid-template-rows: repeat(20, 30px); */
+    grid-column: 2/4;
+    grid-row: 9/10; 
+
+}
+
+#text{
+  
+    grid-column: 2/4;
+    grid-row: 7/8;  
+}
+
 .tit{
     font-size: 20px;
     grid-column: 2/3;
