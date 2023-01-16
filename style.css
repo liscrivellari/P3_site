@@ -70,7 +70,7 @@ ul li:hover a{
 .grid2{
     display: grid;
     grid-template-columns: 5% 1fr 5%;
-    grid-template-rows: repeat(70, 30px);
+    grid-template-rows: repeat(30, 30px);
 }
 
    .titulo{
@@ -100,9 +100,6 @@ ul li:hover a{
 }
 
  .shop{
-   /* position: relative;
-    top: 50px;
-  right: 200px;  */
 text-align: center;
     font-size: 15px;
     grid-column: 2/3;
@@ -120,14 +117,27 @@ text-align: center;
     grid-row: 1/2;
 }
 
+#buy{
+    text-decoration: none;
+    color: var(--fundo);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 40px 10px 40px;
+    background-color: var(--branco);
+    border-radius: 5px;
+}
+
+.tit{
+    font-size: 20px;
+    grid-column: 2/3;
+    grid-row: 2/5; 
+}
 .ti{
     font-size: 20px;
     grid-column: 2/3;
     grid-row: 5/6;
 }
-/* .chek{
-    font-size: 50px;
-} */
+
 #tu{
     grid-column: 2/3;
     grid-row: 6/11;
@@ -151,14 +161,23 @@ text-align: center;
 .buy-tickets{
     line-height: 1.5em;
     display: inline-block;
+    position: relative;
     width: 50%;
     grid-column: 1/4;
-    grid-row: 10/11;   
+    grid-row: 10/11; 
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
+legend{
+    font-size: 1.5em;
+}
 label{
     display: inline-block;
     width: 100%;
+    padding: 7px;
 }
 
 #text{
@@ -182,6 +201,10 @@ label{
     font-size: 20px;
 }
 
+.space{
+    height: 150vh;
+}
+
 #adj{
     display: inline;
     grid-column: 2/3;
@@ -198,11 +221,11 @@ input[type="text"], input[type="number"], input[type="email"], input[type="tel"]
     margin: 3px;
     color: var(--branco);
 }
-.tit{
-    font-size: 20px;
-    grid-column: 2/3;
-    grid-row: 2/5; 
+
+.tutulo > h1{
+    text-align: center;
 }
+
 
 .myvideo{
     display: inline-block;
