@@ -1,3 +1,9 @@
+:root{
+    --beige: #b3a393;
+    --branco: #CCD7D5;
+    --fundo: #172641;
+}
+
 html{
     font-family: Petrona, serif;
     scroll-behavior: smooth;
@@ -5,21 +11,22 @@ html{
 }
 
 body{
-    background-color: #172641;
-    color: #CCD7D5;
-    margin: 10;
+    background-color: var(--fundo);
+    color: var(--branco);
+    margin: 0;
     /* font-size: 1vw; */
 }
 
 
-a{
-    color: #CCD7D5;
+.mainHeader a{
+    font-weight: 600;
+    color: var(--fundo);
 }
-
 
 .mainHeader{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
+background-color: var(--branco);
 }
 
 ul{
@@ -31,10 +38,23 @@ ul{
 }
 
 ul li{
+
     display: inline;
     line-height: 2em;
     text-align: center;
+    padding: 15px;
+    transition: 1s ease;
 }
+
+ul li:hover{
+    background-color: var(--fundo);
+}
+
+ul li:hover a{
+    color: var(--branco);
+}
+
+
 
 li#liOne{
     grid-column: 1/2;
@@ -49,10 +69,11 @@ li#liTwo{
 }
 
 
+
 .grid{
     display: grid;
     grid-template-columns: 5% 1fr 5%;
-    grid-template-rows: repeat(14, 30px);
+    grid-template-rows: repeat(25, 30px);
 }
 
 .grid2{
@@ -62,19 +83,22 @@ li#liTwo{
 }
 
    .titulo{
-    font-size: 30px;
+    display: inline-block;
+    font-size: 2.5em;
     grid-column: 2/3;
-    grid-row: 1/4 ;
+    grid-row: 3/4 ;
+    text-align: center;
+    margin: 0;
    } 
 
-.play{
-    /* position: relative;
-    top: 0px;
-  left: 250px; */
-  grid-column: 2/3;
-  grid-row: 4/5 ;
-    font-size: 15px;
-}
+   .divider{
+    display: inline-block;
+    width: 100%;
+    background-color: var(--branco);
+    height: 1px;
+    grid-column: 2/3;
+    grid-row: 6/7;
+   }
 
 .aboutus{
     text-align: left;
@@ -178,10 +202,18 @@ li#liTwo{
 .myvideo{
     display: inline-block;
     grid-column: 2/3;
-    grid-row: 6/12;
+    grid-row: 9/12;
 }
 video{
     display: inline-block;
     width: 100%;
     object-fit: contain;
+}
+
+@media screen and (max-width: 760px) {
+
+    .divider{
+        grid-row: 7/8;
+    }
+    
 }
