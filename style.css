@@ -103,12 +103,13 @@ ul li:hover a{
    /* position: relative;
     top: 50px;
   right: 200px;  */
-
+text-align: center;
     font-size: 15px;
     grid-column: 2/3;
     grid-row: 2/9 ; 
 } 
 #shp{
+    text-align: center;
     font-size: 30px;
     grid-column: 2/3;
     grid-row: 5/6;
