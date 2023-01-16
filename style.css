@@ -25,7 +25,7 @@ body{
 
 .mainHeader{
 display: grid;
-grid-template-columns: repeat(3, 1fr);
+grid-template-columns: repeat(4, 1fr);
 background-color: var(--branco);
 }
 
@@ -55,17 +55,8 @@ ul li:hover a{
 }
 
 
-
-li#liOne{
-    grid-column: 1/2;
-}
-
-li#liTwo{
-    grid-column: 2/3;
-}
-
-#liThree{
-    grid-column: 3/4;
+#liOne a{
+    text-transform: uppercase;
 }
 
 
