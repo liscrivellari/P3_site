@@ -135,21 +135,30 @@ text-align: center;
 }
 
 .form_tickets{
-    grid-column: 2/4;
     grid-row: 6/11;
 
 }
+
 .ch{
     font-size: 20px;
 }
+
 #form_b{
     grid-column: 1/4;
     grid-row: 20/21;  
 }
-.buy-tickets{
-   grid-column: 1/4;
-    grid-row: 10/11;   
 
+.buy-tickets{
+    line-height: 1.5em;
+    display: inline-block;
+    width: 50%;
+    grid-column: 1/4;
+    grid-row: 10/11;   
+}
+
+label{
+    display: inline-block;
+    width: 100%;
 }
 
 #text{
@@ -189,7 +198,6 @@ input[type="text"], input[type="number"], input[type="email"], input[type="tel"]
     margin: 3px;
     color: var(--branco);
 }
-
 .tit{
     font-size: 20px;
     grid-column: 2/3;
@@ -207,9 +215,10 @@ video{
     object-fit: contain;
 }
 
-p{
+#abt{
     line-height: 1.5em;
 }
+
 
 @media screen and (max-width: 760px) {
 
