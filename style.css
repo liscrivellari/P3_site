@@ -14,7 +14,7 @@ body{
     background-color: var(--fundo);
     color: var(--branco);
     margin: 0;
-    /* font-size: 1vw; */
+    background-image: url(img/bgAsset.png);
 }
 
 
@@ -184,6 +184,17 @@ ul li:hover a{
     grid-row: 8/12;
 }
 
+#Adjectives{
+    appearance: none;
+    background-color: var(--fundo);
+    border: 1px solid var(--branco);
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 3px;
+    margin: 3px;
+    color: var(--branco);
+}
+
 .tit{
     font-size: 20px;
     grid-column: 2/3;
@@ -201,7 +212,7 @@ video{
     object-fit: contain;
 }
 
-#abt{
+p{
     line-height: 1.5em;
 }
 
