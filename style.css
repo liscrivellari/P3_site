@@ -172,12 +172,6 @@ ul li:hover a{
     font-size: 20px;
 }
 
-/* .adject{
-    font-size: 10px;
-    grid-column: 3/4;
-    grid-row: 2/3; 
-} */
-
 #adj{
     display: inline;
     grid-column: 2/3;
@@ -190,7 +184,7 @@ ul li:hover a{
     border: 1px solid var(--branco);
     border-radius: 3px;
     font-family: inherit;
-    padding: 3px;
+    padding: 3px 3px 3px 6px;
     margin: 3px;
     color: var(--branco);
 }
