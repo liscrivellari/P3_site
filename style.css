@@ -178,7 +178,7 @@ ul li:hover a{
     grid-row: 8/12;
 }
 
-#Adjectives{
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"]{
     appearance: none;
     background-color: var(--fundo);
     border: 1px solid var(--branco);
